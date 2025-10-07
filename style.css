@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.list {
+  margin-top: 15px;
+}
+
+.contact {
+  background: #e7f1ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.contact h3 {
+  margin: 0;
+}
+
+.actions {
+  margin-top: 6px;
+}
+
+.actions button {
+  background: #ff6b6b;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.actions .edit {
+  background: #28a745;
+}
